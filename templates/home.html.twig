@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+
+
+{% block content %}
+    <main>
+
+        <div class="container">
+            <div class="container-content"><img src="{{ asset('assets/img/chimpanz1.jpg') }}" alt="logo" class="img"/></div>
+            <div class="container-content">{{ article.content }}</div>
+
+        </div>
+
+        <div class="container">
+            <div class="container-content"><img src="{{ asset('assets/img/chimpanz9.jpg') }}" alt="logo" class="img"/></div>
+            <div class="container-content">{{ article.content }}</div>
+
+        </div>
+
+        <div class="container">
+            <div class="container-content"><img src="{{ asset('assets/img/chimpanz3.jpg') }}" alt="logo" class="img"/></div>
+            <div class="container-content">{{ article.content }}</div>
+        </div>
+
+   </main>
+
+    <div id="home-background"></div>
+
+{% endblock content %}
