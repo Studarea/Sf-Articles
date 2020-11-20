@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticlesListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticlesListController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/articleslist.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articleslist.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.twig" afterDir="false" />
     </list>
@@ -155,7 +154,7 @@
       <workItem from="1605796934919" duration="7090000" />
       <workItem from="1605813082992" duration="9991000" />
       <workItem from="1605853221525" duration="2127000" />
-      <workItem from="1605858397619" duration="7641000" />
+      <workItem from="1605858397619" duration="9080000" />
     </task>
     <servers />
   </component>

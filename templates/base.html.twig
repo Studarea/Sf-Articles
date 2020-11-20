@@ -14,15 +14,23 @@
 
 
     <div>
-        <div id="logo"><img src="{{ asset('assets/img/chimpanz-logo.jpg') }}" alt="logo" class="img"/></div>
+        <div id="logo"><a href="{{ path('home_page') }}">
+                <img src="{{ asset('assets/img/chimpanz-logo.jpg') }}" alt="logo" class="img"/></a></div>
         <div id="nav">
+
             <ul>
-            <li>Home Page</li>
-            <li>Articles List</li>
+                <a href="{{ path('home_page') }}"><li>Home Page</li></a>
+                <a href="{{ path('articles_page') }}"><li>Articles List</li></a>
             <li>Contact</li>
             <li>Legal Notice</li>
             </ul>
+
         </div>
+
+
+
+
+
 
     </div>
 
@@ -37,7 +45,10 @@
 
 
 <footer>
-    <div id="logo-footer"><img src="{{ asset('assets/img/chimpanz-logo.jpg') }}" alt="logo" class="img"/></div>
+    <div id="logo-footer"><a href="{{ path('home_page') }}">
+            <img src="{{ asset('assets/img/chimpanz-logo.jpg') }}" alt="logo" class="img"/></a>
+    </div>
+
 </footer>
 
 </body>
