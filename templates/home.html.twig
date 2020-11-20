@@ -1,11 +1,14 @@
 {% extends 'base.html.twig' %}
 
 
-
+{# Je récupère le header et le footer et l'emplacement du content #}
 {% block content %}
     <main>
 
         <section>
+
+            {# J'effectue une boucle qui interroge tous les articles de l'array et affiche les titles #}
+            {# J'effectue le lien vers la page de l'article #}
 
             {% for article in articles %}
 

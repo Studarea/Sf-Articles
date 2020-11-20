@@ -56,12 +56,15 @@ class HomeController extends AbstractController
             ],
         ];
 
+        // Je demande sur cette page, à n'afficher que les 3 derniers titles des articles de l'array
+
+        $articles = array_reverse(array_slice($articles, 0, 3));
 
         return $this->render('home.html.twig', [
 
             'articles' => $articles
-        ]);
 
+        ]);
 
 
     }

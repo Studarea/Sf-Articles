@@ -1,14 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name= »description » content= »La description de page géniale !=)" » />
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css' ) }}" >
-    <title>Base de pages</title>
+    <title>Pages des Articles LeMonde est "Merveilleux" !</title>
 </head>
 <body>
+
+
+{# création du header avec les liens vers les pages #}
 
 <header>
 
@@ -21,14 +25,11 @@
             <ul>
                 <a href="{{ path('home_page') }}"><li>Home Page</li></a>
                 <a href="{{ path('articles_page') }}"><li>Articles List</li></a>
-            <li>Contact</li>
-            <li>Legal Notice</li>
+                <a href="{{ path('home_page') }}"><li>Contact</li></a>
+                <a href="{{ path('home_page') }}"><li>Legal Notice</li></a>
             </ul>
 
         </div>
-
-
-
 
 
 
@@ -37,17 +38,20 @@
 
 </header>
 
-{# je créé un block nommé "content", et situé entre la fermeture du header et l'ouverture du footer
-        il va permettre de mettre le contenu centrale de chacune des pages
-        Ce qui va dire que chaque page va récupérer le header et le footer de fichier base, mais chaque page
-        va modifier le contenu du block content #}
+{# je créé un block nommé "content", et situé entre la fermeture du header et l'ouverture du footer,
+il va permettre de mettre le contenu central de chacune des pages et chaque page va récupérer le header et le footer de fichier "base".
+Ainsi chaque page aura son propre contentu mais un header et footer communs #}
 {% block content %} {% endblock %}
 
+
+
+{# création du footer avec retour à la Home Page via le logo #}
 
 <footer>
     <div id="logo-footer"><a href="{{ path('home_page') }}">
             <img src="{{ asset('assets/img/chimpanz-logo.jpg') }}" alt="logo" class="img"/></a>
     </div>
+    <div>Les cours avec David c'est de la boulette ! =)</div>
 
 </footer>
 
