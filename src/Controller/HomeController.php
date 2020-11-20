@@ -7,6 +7,8 @@ namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 
 
@@ -55,12 +57,12 @@ class HomeController extends AbstractController
         ];
 
 
+        return $this->render('home.html.twig', [
 
-       return $this->render('home.html.twig', [
+            'articles' => $articles
+        ]);
 
-        // ici je fait le lien avec la variable à mon fichier html.twig'
-           'article' => $articles
-    ]);
+
 
     }
 }

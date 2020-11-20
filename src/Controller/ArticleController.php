@@ -14,11 +14,11 @@ class ArticleController extends AbstractController
 
 {
     /**
-     * @Route("/article", name="article_page")
+     * @Route("/article/{id}", name="article_page")
      *
      */
 
-    public function article()
+    public function article($id)
     {
 
         $articles = [
@@ -55,12 +55,14 @@ class ArticleController extends AbstractController
         ];
 
 
+        $article = $articles[$id];
 
         return $this->render('article.html.twig', [
 
-            // ici je fait le lien avec la variable à mon fichier html.twig'
-            'article' => $articles
+            'article' => $article
+
         ]);
+
 
     }
 }

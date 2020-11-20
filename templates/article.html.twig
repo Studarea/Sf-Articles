@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+
+{% block content %}
+
+    <main>
+        <section>
+
+            <img src="{{ article.image }}" alt="image" class="img"/>
+            <h1>{{ article.title }}</h1>
+            <p>{{ article.content }}</p>
+
+        </section>
+    </main>
+
+{% endblock content %}

@@ -5,22 +5,16 @@
 {% block content %}
     <main>
 
-        <div class="container">
-            <div class="container-content"><img src="{{ asset('assets/img/chimpanz1.jpg') }}" alt="logo" class="img"/></div>
-            <div class="container-content">{{ article.content }}</div>
+        <section>
 
-        </div>
+            {% for article in articles %}
 
-        <div class="container">
-            <div class="container-content"><img src="{{ asset('assets/img/chimpanz9.jpg') }}" alt="logo" class="img"/></div>
-            <div class="container-content">{{ article.content }}</div>
+                <div class="container">
+                    <div class="container-content">{{ article.title }}</div>
+                </div>
+            {% endfor %}
 
-        </div>
-
-        <div class="container">
-            <div class="container-content"><img src="{{ asset('assets/img/chimpanz3.jpg') }}" alt="logo" class="img"/></div>
-            <div class="container-content"><a href="{{ path('home_page', {'id': article.id}) }}">{{ article.content }}</a></div>
-        </div>
+        </section>
 
    </main>
 

@@ -56,10 +56,10 @@ class ArticlesListController extends AbstractController
 
 
 
-        return $this->render('articles.html.twig', [
+        return $this->render('articleslist.html.twig', [
 
             // ici je fait le lien avec la variable à mon fichier html.twig'
-            'article' => $articles
+            'articles' => $articles
         ]);
 
     }
