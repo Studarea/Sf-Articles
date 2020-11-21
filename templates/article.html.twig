@@ -1,6 +1,9 @@
 {% extends 'base.html.twig' %}
 
 {# Je récupère le header et le footer et l'emplacement du content #}
+
+{% block title %}Article{% endblock %}
+
 {% block content %}
 
     <main>
@@ -9,6 +12,8 @@
             {# J'effectue j'affiche le contenu d'un article de l'array #}
             {# image, title et content #}
 
+
+            {# variable. #}
             <img src="{{ article.image }}" alt="image" class="img"/>
             <h1 class="center">{{ article.title }}</h1><br />
             <p class="center">{{ article.content }}</p>

@@ -1,5 +1,6 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Les Articles{% endblock %}
 
 {# Je récupère le header et le footer et l'emplacement du content #}
 {% block content %}
@@ -15,7 +16,9 @@
 
             <div class="container">
                 <div class="container-content"><img src="{{ article.image }}" alt="image" class="img"/></div>
+                {# path : lien qui cible article_page  #}
                 <a href="{{ path('article_page', {'id': article.id}) }}">
+                    {# J'effectue le lien vers la page de l'article #}
                     <div class="container-content">{{ article.title }}</div>
                 </a>
             </div>
