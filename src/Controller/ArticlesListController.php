@@ -11,7 +11,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
 
-/* j'appele la classe ArticlesHelper via new */
+
 class ArticlesListController extends AbstractController
 
 {
@@ -23,8 +23,8 @@ class ArticlesListController extends AbstractController
     public function articles()
     {
 
-        /* je créer un objet à partir de la class : variable qui représente la classe
-        à partir de cette variable tu peux entrer dans la classe */
+        /* je créer un objet à partir de la class : variable qui représente la classe */
+        /* (à partir de cette variable je peux entrer dans la classe) */
 
         $ArticlesHelper = new ArticlesHelper();
         /* je vais chercher ce qu'il y a dans la classe : comme une clé -> */

@@ -10,17 +10,14 @@
 
 
         {# J'effectue une boucle qui interroge tous les articles de l'array et affiche les images et les titles #}
-        {# J'effectue le lien vers la page de l'article #}
+        {# J'effectue le lien vers la page d'un'article #}
 
         {% for article in articles %}
 
             <div class="container">
                 <div class="container-content"><img src="{{ article.image }}" alt="image" class="img"/></div>
-                {# path : lien qui cible article_page  #}
-                <a href="{{ path('article_page', {'id': article.id}) }}">
-                    {# J'effectue le lien vers la page de l'article #}
-                    <div class="container-content">{{ article.title }}</div>
-                </a>
+                {# J'effectue le lien vers la page d'un article #}
+                <a href="{{ path('article_page', {'id': article.id}) }}"><div class="container-content">{{ article.title }}</div></a>
             </div>
 
         {% endfor %}

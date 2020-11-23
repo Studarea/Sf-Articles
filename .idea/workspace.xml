@@ -25,9 +25,7 @@
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticlesListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticlesListController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/ArticlesHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/ArticlesHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/articleslist.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articleslist.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,6 +176,7 @@
       <workItem from="1605858397619" duration="17940000" />
       <workItem from="1605896600137" duration="5060000" />
       <workItem from="1605948263008" duration="5033000" />
+      <workItem from="1606111818701" duration="1696000" />
     </task>
     <servers />
   </component>

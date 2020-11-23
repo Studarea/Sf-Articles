@@ -22,11 +22,12 @@ class HomeController extends AbstractController
 
     public function home()
     {
-        /* je créer un objet à partir de la class : variable qui représente la classe
-        à partir de cette variable tu peux entrer dans la classe */
+        /* je créer un objet à partir de la class : variable qui représente la classe */
+        /* (à partir de cette variable je peux entrer dans la classe) */
 
         $ArticlesHelper = new ArticlesHelper();
 
+        /* ici je récupère les 3 derbiers artricles via la méthode lastArticles */
         /* je vais chercher ce qu'il y a dans la classe : comme une clé -> */
         $lastArticles = $ArticlesHelper->lastArticles();
 

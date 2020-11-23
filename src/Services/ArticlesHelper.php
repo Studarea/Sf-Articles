@@ -3,9 +3,9 @@
 namespace App\Services;
 
 
+
 class ArticlesHelper{
 
-    //const TVA = 20;
 
     public $articles = [
         [
@@ -40,7 +40,7 @@ class ArticlesHelper{
         ],
     ];
 
-    /* return la propriété qui est au dessus   */
+    /* je créér la méthode allArticles qui va récupérer tous les articles dans le tableau aa-rray si dessus */
     public function allArticles(){
 
         /* je vais chercher un élément dans la classe (lui même + la classe en elle même) */
@@ -49,7 +49,7 @@ class ArticlesHelper{
     }
 
     public function lastArticles (){
-        /* je coupe la tableau des article pour ne prendre que les 3 derniers */
+        /* je coupe la tableau des articles pour ne prendre que les 3 derniers */
         $lastarticles = array_slice($this->articles, -3);
 
         return $lastarticles;
