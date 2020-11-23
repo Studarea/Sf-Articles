@@ -45,7 +45,7 @@ class Book
 
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="integer", length=255)
      */
     private $number_page;
 
