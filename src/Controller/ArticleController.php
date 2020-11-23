@@ -22,11 +22,11 @@ class ArticleController extends AbstractController
 
     public function article($id)
     {
-        /* je créer un objet à partir de la class : variable qui représente la classe */
+        /* je créer un objet à partir de la classe : variable qui représente la classe */
         /* (à partir de cette variable je peux entrer dans la classe) */
         $ArticlesHelper = new ArticlesHelper();
 
-        /* je créer la variable qui va appeler ma classe $ArticlesHelper et cibler ->allArticles (tout le tableau des articles)  */
+        /* je créer la variable qui va appeler ma classe $ArticlesHelper et cibler -> allArticles (tous les articles du tableau) */
         /* je vais chercher ce qu'il y a dans la classe : comme une clé -> */
         $articles = $ArticlesHelper->allArticles();
 

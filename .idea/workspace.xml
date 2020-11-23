@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ee095d-e9d3-4990-bdf5-4afe6e785c1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Entity/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticlesListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticlesListController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/ArticlesHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/ArticlesHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/articleslist.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articleslist.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,9 +153,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/vendor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Services" />
       <recent name="$PROJECT_DIR$/public/assets" />
@@ -176,7 +180,8 @@
       <workItem from="1605858397619" duration="17940000" />
       <workItem from="1605896600137" duration="5060000" />
       <workItem from="1605948263008" duration="5033000" />
-      <workItem from="1606111818701" duration="1696000" />
+      <workItem from="1606111818701" duration="2154000" />
+      <workItem from="1606117405423" duration="5206000" />
     </task>
     <servers />
   </component>
@@ -196,6 +201,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="464" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606122706954">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="464" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.836@0.23.1440.836" timestamp="1606122706954" />
+    <state x="353" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606136558408">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="353" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.836@0.23.1440.836" timestamp="1606136558408" />
     <state x="1978" y="353" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605854073792">
       <screen x="1440" y="23" width="1600" height="1136" />
     </state>
@@ -205,10 +218,10 @@
     </state>
     <state x="478" y="219" key="NewPhpClassDialog/0.23.1440.836@0.23.1440.836" timestamp="1605882763275" />
     <state x="1971" y="290" key="NewPhpClassDialog/0.23.1440.877/1440.23.1600.1136@1440.23.1600.1136" timestamp="1605821208401" />
-    <state x="266" y="377" key="NewPhpFileDialog" timestamp="1605797594186">
+    <state x="266" y="377" key="NewPhpFileDialog" timestamp="1606136375495">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state x="266" y="377" key="NewPhpFileDialog/0.23.1440.836@0.23.1440.836" timestamp="1605797594186" />
+    <state x="266" y="377" key="NewPhpFileDialog/0.23.1440.836@0.23.1440.836" timestamp="1606136375495" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1605877308295">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
