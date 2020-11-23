@@ -57,7 +57,7 @@ class Book
 
 
     /**
-     * @ORM\Column(type="string", length=50)
+     * @ORM\Column(type="boolean", length=50)
      */
     private $for_sale;
 
