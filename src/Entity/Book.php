@@ -45,19 +45,19 @@ class Book
 
 
     /**
-     * @ORM\Column(type="integer", length=255)
+     * @ORM\Column(type="integer")
      */
     private $number_page;
 
 
     /**
-     * @ORM\Column(type="date", length=120)
+     * @ORM\Column(type="date")
      */
     private $date;
 
 
     /**
-     * @ORM\Column(type="boolean", length=50)
+     * @ORM\Column(type="boolean")
      */
     private $for_sale;
 
